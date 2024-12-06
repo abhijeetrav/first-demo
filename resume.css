@@ -1,1 +1,103 @@
+# resume[styling] 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
 
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+
+  h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-size: 1.1em;
+    color: #555;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #007BFF;
+  }
+  
+
+  .project {
+    margin-bottom: 15px;
+  }
+  
+  .project h3 {
+    font-size: 1.4em;
+    color: #333;
+  }
+  
+  .project p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
